@@ -1,0 +1,13 @@
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform:capitalize
+}
+.three{
+text-transform: none;
+}
+.one,.two,.three{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+}

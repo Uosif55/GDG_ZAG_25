@@ -1,0 +1,14 @@
+.one,.two,.three{
+    width: 400px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.two{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.three{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
