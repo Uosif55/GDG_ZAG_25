@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    margin-left:25% ;
+    
+}
+
+/*-------------- Task 1 -----------------*/
+.img{
+width: 150px;
+height: 150px;
+margin-left: 10px;
+float: right;
+}
+/*-------------- Task 2 ---------------*/
+.Two p{
+ display: inline-block; 
+ margin-left: 10px;
+ 
+ text-align: center;
+ line-height: 40px
+
+}
+h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #ff0000;
+    text-shadow: black 2px 2px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+.Two{
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.R1,.R2,.R3,.R4{
+    width: calc((100% - 60px) /4);
+    height: 40px;
+}
+.R1{
+    
+    background-color: #d55656;
+
+}
+.R2{
+    
+    background-color: #15a505;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.R3{
+    
+    background-color:#828ed8;
+}
+.R4{
+    
+    background-color: #fffb00;
+    border-radius: 10px;
+}
+/*------------ Task 3 --------------*/
+.Three{
+    margin-top: 100px;
+}
+.Three p{
+    width: 150px; 
+    height: 150px;
+    position: absolute;
+}
+
+.i1{
+    background-color: #c30e0e;
+    
+    z-index: 1;
+}
+.i2{
+    background-color: #0ec3ae;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.i3{
+    background-color: #870ec3;
+    z-index: 3;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+/*-------------------- Task 4 ----------------------*/
+
+.Four{
+    margin-top: 350px;
+    
+}
+table,th ,td{
+width: 100%;
+border: #ffffff solid 1px;
+background-color: #eeeeee; 
+}
+th , td {
+    padding: 10px;
+    margin-left: 5px;
+}
